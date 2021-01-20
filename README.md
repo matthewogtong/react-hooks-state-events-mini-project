@@ -16,6 +16,12 @@ need down from `App`.
 
 ### TaskList
 
+  -App
+    -CategoryFilter
+    -NewTaskForm
+    -TaskList
+      -Task
+
 First, we'll want to display all the tasks in our app. Pass down the task data
 from `App` to `TaskList`, and display each task using the `Task` component. Make
 sure to use a `key` prop!
